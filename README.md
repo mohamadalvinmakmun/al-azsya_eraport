@@ -9,9 +9,9 @@
 
   <p align="center">
     <br />
-    <a href="#"><strong>Lihat Dokumentasi »</strong></a>
+    <a href="http://localhost/sikadu-eraport-master/"><strong>Lihat Dokumentasi »</strong></a>
     ·
-    <a href="#"><strong>Lihat Demo »</strong></a>
+    <a href="http://localhost/sikadu-eraport-master/login/index"><strong>Lihat Demo »</strong></a>
   </p>
 </div>
 
@@ -41,7 +41,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Tentang proyek
-
 
 Sistem Informasi E-Raport Sekolah Islam **SMA Al-Azsya** merupakan aplikasi berbasis web yang dirancang untuk mempermudah pengelolaan nilai siswa, guru, serta data akademik lainnya secara digital.  
 Sebelumnya, proses pengolahan nilai di SMA Al-Azsya masih dilakukan secara manual menggunakan lembar kerja konvensional sehingga membutuhkan waktu yang lama dan rawan kesalahan.
@@ -79,8 +78,8 @@ Berikut langkah-langkah penggunaan sistem E-Raport SMA Al-Azsya sesuai dengan pe
 
 ### Akses sebagai siswa
 
-1. Siswa membuka halaman login siswa.  
-   Contoh: [http://localhost/eraport/login/siswa](#)
+1. Siswa membuka halaman login siswa  
+   👉 [http://localhost/sikadu-eraport-master/login/index](http://localhost/sikadu-eraport-master/login/index)
 2. Login menggunakan **NIS** dan **Password**.
 3. Setelah berhasil login, siswa dapat mengakses:
    - [x] Profil dan data pribadi  
@@ -93,8 +92,8 @@ Berikut langkah-langkah penggunaan sistem E-Raport SMA Al-Azsya sesuai dengan pe
 
 ### Akses sebagai guru
 
-1. Guru membuka halaman login guru.  
-   Contoh: [http://localhost/eraport/login/guru](#)
+1. Guru membuka halaman login guru  
+   👉 [http://localhost/sikadu-eraport-master/login/index](http://localhost/sikadu-eraport-master/login/index)
 2. Login menggunakan **NIP** dan **Password**.
 3. Setelah login, guru dapat mengakses:
    - [x] Daftar siswa per kelas  
@@ -107,8 +106,8 @@ Berikut langkah-langkah penggunaan sistem E-Raport SMA Al-Azsya sesuai dengan pe
 
 ### Akses sebagai admin
 
-1. Admin membuka halaman login admin.  
-   Contoh: [http://localhost/eraport/login/admin](#)
+1. Admin membuka halaman login admin  
+   👉 [http://localhost/sikadu-eraport-master/login/index](http://localhost/sikadu-eraport-master/login/index)
 2. Login menggunakan **Email** dan **Password**.
 3. Setelah login, admin memiliki akses penuh untuk mengelola:
    - [x] Data siswa  
