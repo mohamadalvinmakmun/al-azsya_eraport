@@ -42,6 +42,9 @@
 <!-- ABOUT THE PROJECT -->
 ## Tentang proyek
 
+![Uploading image.png…]()
+
+
 Sistem Informasi E-Raport Sekolah Islam **SMA Al-Azsya** merupakan aplikasi berbasis web yang dirancang untuk mempermudah pengelolaan nilai siswa, guru, serta data akademik lainnya secara digital.  
 Sebelumnya, proses pengolahan nilai di SMA Al-Azsya masih dilakukan secara manual menggunakan lembar kerja konvensional sehingga membutuhkan waktu yang lama dan rawan kesalahan.
 
