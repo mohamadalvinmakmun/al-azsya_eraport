@@ -1,40 +1,17 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
 
   <h3 align="center">Tugas Besar Rekayasa Web</h3>
-  <h3 align="center">Sistem Informasi E-Raport</h3>
+  <h3 align="center">Sistem Informasi E-Raport Sekolah Islam SMA Al-Azsya</h3>
 
   <p align="center">
     <br />
-    <a href="https://github.com/yusufadji/tubes-rekayasa-web"><strong>Lihat Dokumentasi »</strong></a>
+    <a href="#"><strong>Lihat Dokumentasi »</strong></a>
     ·
-    <a href="https://eraports.herokuapp.com/"><strong>Lihat Demo »</strong></a>
+    <a href="#"><strong>Lihat Demo »</strong></a>
   </p>
 </div>
 
@@ -65,72 +42,93 @@
 <!-- ABOUT THE PROJECT -->
 ## Tentang proyek
 
-Pada saat ini pengolahan nilai raport di SMKN 1 Kab. Tangerang belum menggunakan aplikasi berbasis web berupa sistem raport online yang mampu memberikan informasi mengenai nilai kepada siswa dengan cepat melalui internet, dengan sistem berjalan yang ada di SMKN 1 Kab. Tangerang masih mempunyai kelemahan dalam mengolah nilai siswa. 
+Sistem Informasi E-Raport Sekolah Islam **SMA Al-Azsya** merupakan aplikasi berbasis web yang dirancang untuk mempermudah pengelolaan nilai siswa, guru, serta data akademik lainnya secara digital.  
+Sebelumnya, proses pengolahan nilai di SMA Al-Azsya masih dilakukan secara manual menggunakan lembar kerja konvensional sehingga membutuhkan waktu yang lama dan rawan kesalahan.
 
-Dalam penelitian ini penulis menggunakan metode pengembangan Waterfall. Model Waterfall memiliki proses mengalir secara sistematis dari satu tahap ke tahap lainnya. Tahap tersebut adalah analisis, design, coding, testing, maintenance (perawatan). Untuk mengatasi masalah yang dihadapi SMKN 1 Kab. Tangerang dibutuhkan pembenahan terhadap sistem yang sedang berjalan dan pengembangannya harus disesuaikan dengan kebutuhan saat ini yaitu sistem informasi yang khusus digunakan untuk pengolahan data guru, data siswa, data kelas, data mapel, data prestasi dan nilai raport siswa, sehingga proses pengolahan menjadi lebih lebih cepat dan akurat. Maka, dibutuhkan suatu Sistem Informasi E-Raport Berbasis Web Pada SMKN 1 Kab. Tangerang.
+Dengan adanya sistem E-Raport ini, sekolah dapat:
+- Mengelola data siswa, guru, kelas, dan mata pelajaran dengan lebih efisien.
+- Menyampaikan informasi nilai kepada siswa secara cepat dan transparan.
+- Mempermudah guru dalam menginput nilai serta mencetak raport digital.
+
+Sistem ini dikembangkan menggunakan **metode Waterfall**, yang meliputi tahap:
+> Analisis → Desain → Coding → Testing → Maintenance.
+
+Metode ini memastikan setiap tahap pengembangan dilakukan secara terstruktur dan menghasilkan sistem yang stabil, akurat, dan mudah digunakan.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+---
 
 ### Dibuat menggunakan
 
-Proyek ini menggunakan framework sebagai berikut:
+Proyek ini dibangun dengan menggunakan beberapa framework dan teknologi berikut:
 
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
+* [PHP (Native dengan MySQL)](https://www.php.net)
+* [XAMPP / Apache Server](https://www.apachefriends.org/index.html)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+---
 
-<!-- GETTING STARTED -->
 ## Cara penggunaan
 
-Berikut ini adalah tata cara penggunaan sistem yang telah kami buat
+Berikut langkah-langkah penggunaan sistem E-Raport SMA Al-Azsya sesuai dengan peran pengguna.
 
 ### Akses sebagai siswa
 
-1. Siswa mengakses [https://eraports.herokuapp.com/login/siswa](https://eraports.herokuapp.com/login/siswa)
-2. Login menggunakan NIS dan Password
-3. Setelah login, siswa dapat mengakses :
-- [x] Profil
-- [x] Pesan
-- [x] Prestasi
+1. Siswa membuka halaman login siswa.  
+   Contoh: [http://localhost/eraport/login/siswa](#)
+2. Login menggunakan **NIS** dan **Password**.
+3. Setelah berhasil login, siswa dapat mengakses:
+   - [x] Profil dan data pribadi  
+   - [x] Nilai raport dan prestasi  
+   - [x] Pesan dari guru atau wali kelas  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+---
 
 ### Akses sebagai guru
 
-1. Guru mengakses [https://eraports.herokuapp.com/login/guru](https://eraports.herokuapp.com/login/guru)
-2. Login menggunakan NIP dan Password
-3. Setelah login, guru dapat mengakses :
-- [x] Daftar Siswa
-- [x] Daftar Kelas
-- [x] Daftar Mapel
-- [x] Daftar Nilai
-- [x] Pesan
+1. Guru membuka halaman login guru.  
+   Contoh: [http://localhost/eraport/login/guru](#)
+2. Login menggunakan **NIP** dan **Password**.
+3. Setelah login, guru dapat mengakses:
+   - [x] Daftar siswa per kelas  
+   - [x] Data nilai dan mata pelajaran yang diajarkan  
+   - [x] Pesan dan komunikasi antar pengguna  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+---
 
 ### Akses sebagai admin
 
-1. Admin mengakses [https://eraports.herokuapp.com/login/admin](https://eraports.herokuapp.com/login/admin)
-2. Login menggunakan Email dan Password
-3. Setelah login, admin dapat mengakses :
-- [x] Data Siswa
-- [x] Data Guru
-- [x] Data kelas
-- [x] Data Mapel
+1. Admin membuka halaman login admin.  
+   Contoh: [http://localhost/eraport/login/admin](#)
+2. Login menggunakan **Email** dan **Password**.
+3. Setelah login, admin memiliki akses penuh untuk mengelola:
+   - [x] Data siswa  
+   - [x] Data guru  
+   - [x] Data kelas  
+   - [x] Data mata pelajaran  
+   - [x] Data prestasi dan raport  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+---
+
 ## Daftar Pustaka
 
-Fadillah, M. K., & Moenir, A. (2021). Rancang Bangun Sistem Informasi E-Raport Berbasis Web Dengan Metode Waterfall (Studi Kasus : SMKN 1 Kabupaten Tangerang). <i>Journal of Artificial Intelligence and Innovative Applications</i>, 42-50.
+Fadillah, M. K., & Moenir, A. (2021).  
+_Rancang Bangun Sistem Informasi E-Raport Berbasis Web Dengan Metode Waterfall (Studi Kasus: SMKN 1 Kabupaten Tangerang)._  
+**Journal of Artificial Intelligence and Innovative Applications**, 42–50.
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/yusufadji/tubes-rekayasa-web.svg?style=for-the-badge
-[contributors-url]: https://github.com/yusufadji/tubes-rekayasa-web/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/yusufadji/tubes-rekayasa-web.svg?style=for-the-badge
-[forks-url]: https://github.com/yusufadji/tubes-rekayasa-web/network/members
-[stars-shield]: https://img.shields.io/github/stars/yusufadji/tubes-rekayasa-web.svg?style=for-the-badge
-[stars-url]: https://github.com/yusufadji/tubes-rekayasa-web/stargazers
+---
+
+<p align="center">
+  <b>© 2025 Sekolah Islam SMA Al-Azsya</b><br>
+  <i>Sistem Informasi E-Raport — Digitalisasi Pendidikan untuk Generasi Cerdas dan Islami</i>
+</p>
